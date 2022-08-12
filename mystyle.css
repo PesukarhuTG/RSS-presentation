@@ -1,0 +1,72 @@
+body {
+  background-image: url ('./texture.jpg') !important;
+}
+
+.slide-item {
+  background-image: url ('./texture.jpg');
+}
+
+.headling1 {
+  font-size: 90px;
+  font-weight: 700;
+  color: yellow;
+}
+
+.state-item {
+  margin: 10px;
+}
+
+.arrow-img {
+  width: 200px;
+}
+
+.arrow-image-left {
+  transform: rotate(-25deg);
+  -webkit-transform: rotate(-25deg);
+  -moz-transform: rotate(-25deg);
+  -ms-transform: rotate(-25deg);
+  -o-transform: rotate(-25deg);
+}
+
+.arrow-image-right {
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg);
+  -moz-transform: rotate(25deg);
+  -ms-transform: rotate(25deg);
+  -o-transform: rotate(25deg);
+}
+
+.state-item-ful {
+  margin-bottom: 155px;
+  color: rgb(101, 226, 118);
+}
+
+.state-item-rej {
+  color: rgb(226, 101, 101);
+}
+
+.state-item-pend {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cross-img {
+  position: absolute;
+  margin-top: 10px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  opacity: 0.5;
+}
+
+i {
+  font-style: italic;
+}
